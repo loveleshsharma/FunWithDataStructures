@@ -2,7 +2,7 @@ package Implementations;
 
 public class BinarySearchTree {
 
-    TreeNode root;
+    private TreeNode root;
 
     public BinarySearchTree(int key) {
         root = new TreeNode(key);
@@ -36,7 +36,7 @@ class TreeNode {
     }
 
     public void insert(int key) {
-        if(key <= data) {
+        if(key < data) {
             if(left == null) {
                 left = new TreeNode(key);
             } else {
@@ -52,33 +52,16 @@ class TreeNode {
     }
 
     public void delete(int key) {
-
-        if(left == null && right == null) return;
-
-        if(key < data) {
-            if(left == null) return;
-            else left.delete(key);
-        } else if(key > data) {
-            if(right == null) return;
-            else right.delete(key);
-        } else {
-
-            if(left == null) {
-                if(right != null) {
-                    data = right.data;
-                    right = right.right;
-                }
-            } else if (right == null) {
-                if(left != null) {
-                    data = left.data;
-                    left = left.left;
-                }
-            }
-
-            data = min_value(right);
-            System.out.println("min value:"+ data);
-            right.delete(data);
+        TreeNode searchNode = searchNode(key);
+        if(searchNode != null) {
+            deleteNode(searchNode,key);
         }
+    }
+
+    private void deleteNode(TreeNode searchNode,int key) {
+
+
+
     }
 
     private int min_value(TreeNode root) {
@@ -105,6 +88,24 @@ class TreeNode {
             else
                 return right.contains(key);
         }
+    }
+
+    private TreeNode searchNode(int key) {
+        if(key == data)
+            return this;
+        else if(key < data) {
+            if(left == null)
+                return null;
+            else
+                return left.searchNode(key);
+        }
+        else if(key > data) {
+            if(right == null)
+                return null;
+            else
+                return right.searchNode(key);
+        }
+        return null;
     }
 
     public void inOrder() {
