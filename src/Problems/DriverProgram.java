@@ -12,9 +12,7 @@ public class DriverProgram {
         BST.insertNode(8);
         BST.insertNode(5);
         BST.printInOrder();
-        BST.deleteNode(5);
+        BST.deleteNode(4);
         BST.printInOrder();
-        System.out.println(BST.containsKey(6));
-
     }
 }

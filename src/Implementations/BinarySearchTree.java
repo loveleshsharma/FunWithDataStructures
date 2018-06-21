@@ -1,41 +1,82 @@
 package Implementations;
 
+/**
+ * Implementation of Binary Search Tree(BST) with all its necessary functions
+ * used for basic manipulations
+ * @author lovelesh
+ */
 public class BinarySearchTree {
 
     private TreeNode root;
 
+    /**
+     * Initializes BST with the root node
+     * @param key
+     */
     public BinarySearchTree(int key) {
         root = new TreeNode(key);
     }
 
+    /**
+     * Inserts node into BST
+     * @param key
+     */
     public void insertNode(int key) {
         root.insert(key);
     }
 
+    /**
+     * Deletes node from BST
+     * @param key
+     */
     public void deleteNode(int key) {
-        root.delete(key);
+        root = root.deleteNode(key);
     }
-    
+
+    /**
+     * Searches for a key present in the BST or not
+     * @param key
+     * @return
+     */
     public boolean containsKey(int key) {
         return root.contains(key);
     }
 
+    /**
+     * Prints inorder traversal of the BST
+     */
     public void printInOrder() {
         root.inOrder();
+        System.out.println();
+    }
+
+    /**
+     * Prints preorder traversal of the BST
+     */
+    public void printPreOrder() {
+        root.preOrder();
+        System.out.println();
+    }
+
+    /**
+     * Prints postorder traversal of the BST
+     */
+    public void printPostOrder() {
+        root.postOrder();
         System.out.println();
     }
 }
 
 class TreeNode {
-    Integer data;
-    TreeNode left;
-    TreeNode right;
+    private Integer data;
+    private TreeNode left;
+    private TreeNode right;
 
-    public TreeNode(int key) {
+    TreeNode(int key) {
         data = key;
     }
 
-    public void insert(int key) {
+    void insert(int key) {
         if(key < data) {
             if(left == null) {
                 left = new TreeNode(key);
@@ -51,20 +92,36 @@ class TreeNode {
         }
     }
 
-    public void delete(int key) {
-        TreeNode searchNode = searchNode(key);
-        if(searchNode != null) {
-            deleteNode(searchNode,key);
+    TreeNode deleteNode(int key) {
+
+        if(data == null) return null;
+
+        if(key < data) {
+            if(left != null)
+                left = left.deleteNode(key);
+            else
+                return null;
+        } else if(key > data) {
+            if(right != null)
+                right = right.deleteNode(key);
+            else
+                return null;
+        } else {
+
+//            either child is null
+            if(left == null) {
+                return right;
+            } else if(right == null)
+                return left;
+
+//            both children are present
+            data = min_value(right);
+            right = right.deleteNode(key);
         }
+        return this;
     }
 
-    private void deleteNode(TreeNode searchNode,int key) {
-
-
-
-    }
-
-    private int min_value(TreeNode root) {
+    int min_value(TreeNode root) {
 
         int min = root.data;
         while(root.left != null) {
@@ -74,7 +131,7 @@ class TreeNode {
         return min;
     }
 
-    public boolean contains(int key) {
+    boolean contains(int key) {
         if(key == data)
             return true;
         else if(key <= data) {
@@ -90,29 +147,27 @@ class TreeNode {
         }
     }
 
-    private TreeNode searchNode(int key) {
-        if(key == data)
-            return this;
-        else if(key < data) {
-            if(left == null)
-                return null;
-            else
-                return left.searchNode(key);
-        }
-        else if(key > data) {
-            if(right == null)
-                return null;
-            else
-                return right.searchNode(key);
-        }
-        return null;
-    }
-
-    public void inOrder() {
+    void inOrder() {
         if(left != null)
             left.inOrder();
         System.out.print(data+" ");
         if(right != null)
             right.inOrder();
+    }
+
+    void preOrder() {
+        System.out.println(data+" ");
+        if(left != null)
+            left.preOrder();
+        if(right != null)
+            right.preOrder();
+    }
+
+    void postOrder() {
+        if(left != null)
+            left.postOrder();
+        if(right != null)
+            right.postOrder();
+        System.out.println(data+" ");
     }
 }

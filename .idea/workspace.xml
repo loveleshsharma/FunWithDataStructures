@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9db71ff-3aac-4523-9d2b-363450d09ca9" name="Default" comment="" />
+    <list default="true" id="d9db71ff-3aac-4523-9d2b-363450d09ca9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/hackerearthProblems/DriverProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Implementations/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Implementations/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problems/DriverProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problems/DriverProgram.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,7 +16,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+              <folding>
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#1290#1291#0" expanded="true" />
+                <element signature="e#1316#1317#0" expanded="true" />
+                <element signature="method#insert#0;class#TreeNode#0" />
+                <element signature="method#deleteNode#0;class#TreeNode#0" />
+                <element signature="method#min_value#0;class#TreeNode#0" />
+                <element signature="method#contains#0;class#TreeNode#0" />
+                <element signature="method#inOrder#0;class#TreeNode#0" />
+                <element signature="method#preOrder#0;class#TreeNode#0" />
+                <element signature="method#postOrder#0;class#TreeNode#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriverProgram.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Problems/DriverProgram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,6 +108,18 @@
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Implementations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Problems" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -75,7 +130,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,24 +214,35 @@
       <option name="presentableId" value="Default" />
       <updated>1529478963424</updated>
     </task>
+    <task id="LOCAL-00001" summary="dev : added searchNode method">
+      <created>1529566436549</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1529566436549</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1309" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32959327" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.37007874" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.328594" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.36886394" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26050422" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26050422" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.24963397" />
       <window_info anchor="right" id="Google Cloud Storage" order="0" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -184,17 +250,34 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Messages" order="10" />
     </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dev : added searchNode method" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev : added searchNode method" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
@@ -202,10 +285,23 @@
         <state relative-caret-position="1122">
           <caret line="66" column="35" lean-forward="true" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
           <folding>
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
             <element signature="method#insert#0;class#TreeNode#0" />
+            <element signature="method#deleteNode#0;class#TreeNode#0" />
+            <element signature="method#min_value#0;class#TreeNode#0" />
             <element signature="method#contains#0;class#TreeNode#0" />
+            <element signature="method#inOrder#0;class#TreeNode#0" />
+            <element signature="method#preOrder#0;class#TreeNode#0" />
+            <element signature="method#postOrder#0;class#TreeNode#0" />
           </folding>
         </state>
       </provider>
@@ -222,10 +318,23 @@
         <state relative-caret-position="765">
           <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
           <folding>
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
             <element signature="method#insert#0;class#TreeNode#0" />
+            <element signature="method#deleteNode#0;class#TreeNode#0" />
+            <element signature="method#min_value#0;class#TreeNode#0" />
             <element signature="method#contains#0;class#TreeNode#0" />
+            <element signature="method#inOrder#0;class#TreeNode#0" />
+            <element signature="method#preOrder#0;class#TreeNode#0" />
+            <element signature="method#postOrder#0;class#TreeNode#0" />
           </folding>
         </state>
       </provider>
@@ -239,20 +348,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Problems/DriverProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+        <state relative-caret-position="158">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding>
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
             <element signature="method#insert#0;class#TreeNode#0" />
+            <element signature="method#deleteNode#0;class#TreeNode#0" />
+            <element signature="method#min_value#0;class#TreeNode#0" />
             <element signature="method#contains#0;class#TreeNode#0" />
+            <element signature="method#inOrder#0;class#TreeNode#0" />
+            <element signature="method#preOrder#0;class#TreeNode#0" />
+            <element signature="method#postOrder#0;class#TreeNode#0" />
           </folding>
         </state>
       </provider>
