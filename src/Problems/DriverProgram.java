@@ -14,5 +14,6 @@ public class DriverProgram {
         BST.printInOrder();
         BST.deleteNode(4);
         BST.printInOrder();
+        System.out.println();
     }
 }
