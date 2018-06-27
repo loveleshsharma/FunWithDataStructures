@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9db71ff-3aac-4523-9d2b-363450d09ca9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Implementations/Heap/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DataStructures/Implementations/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/Implementations/BinarySearchTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DataStructures/Implementations/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/Implementations/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Implementations/BinaryHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Implementations/Heap/MinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problems/DriverProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problems/DriverProgram.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,12 +18,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Trie.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Implementations/Trie.java">
+    <leaf>
+      <file leaf-file-name="MinHeap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Implementations/Heap/MinHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriverProgram.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Problems/DriverProgram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -30,6 +50,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -50,8 +71,12 @@
         <option value="$PROJECT_DIR$/src/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/hackerearthProblems/DriverProgram.java" />
         <option value="$PROJECT_DIR$/src/Implementations/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/Problems/DriverProgram.java" />
         <option value="$PROJECT_DIR$/src/Implementations/Trie.java" />
+        <option value="$PROJECT_DIR$/src/Implementations/BinaryHeap.java" />
+        <option value="$PROJECT_DIR$/src/Implementations/Heap/BinaryHeap.java" />
+        <option value="$PROJECT_DIR$/src/Implementations/Heap/Heap.java" />
+        <option value="$PROJECT_DIR$/src/Implementations/Heap/MinHeap.java" />
+        <option value="$PROJECT_DIR$/src/Problems/DriverProgram.java" />
       </list>
     </option>
   </component>
@@ -71,30 +96,30 @@
         <subPane>
           <expand>
             <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="FunWithDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FunWithDataStructures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="FunWithDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FunWithDataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Implementations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="FunWithDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FunWithDataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Implementations" type="462c0819:PsiDirectoryNode" />
-              <item name="BinarySearchTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="FunWithDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FunWithDataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Implementations" type="462c0819:PsiDirectoryNode" />
+              <item name="Heap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FunWithDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FunWithDataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Problems" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -102,13 +127,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -122,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DriverProgram">
     <configuration name="DriverProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problems.DriverProgram" />
       <module name="DataStructures" />
@@ -130,6 +156,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Implementations.Trie" />
+      <module name="DataStructures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Implementations.Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,9 +212,14 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.DriverProgram" />
+      <item itemvalue="Application.Trie" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DriverProgram" />
+        <item itemvalue="Application.Trie" />
       </list>
     </recent_temporary>
   </component>
@@ -206,11 +248,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529583440253</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Completed Trie Data Structure with insert and search utility methods">
+      <created>1529601313323</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529601313323</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="25" width="1309" height="743" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
@@ -221,20 +270,20 @@
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.328594" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.36886394" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.36850393" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32755905" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32913387" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23376623" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.24963397" />
-      <window_info anchor="right" id="Google Cloud Storage" order="0" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.23352855" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" id="Google Cloud Storage" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.24963397" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -258,7 +307,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dev : added searchNode method" />
     <MESSAGE value="Completed Binary Search Tree with utility methods required for basic manipulations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Binary Search Tree with utility methods required for basic manipulations" />
+    <MESSAGE value="Completed Trie Data Structure with insert and search utility methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Trie Data Structure with insert and search utility methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -266,12 +316,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="66" column="35" lean-forward="true" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
           <folding>
-            <element signature="method#insert#0;class#TreeNode#0" />
+            <element signature="method#deleteNode#0;class#TreeNode#0" />
             <element signature="method#min_value#0;class#TreeNode#0" />
             <element signature="method#contains#0;class#TreeNode#0" />
             <element signature="method#inOrder#0;class#TreeNode#0" />
@@ -293,7 +354,7 @@
         <state relative-caret-position="765">
           <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
           <folding>
-            <element signature="method#insert#0;class#TreeNode#0" />
+            <element signature="method#deleteNode#0;class#TreeNode#0" />
             <element signature="method#min_value#0;class#TreeNode#0" />
             <element signature="method#contains#0;class#TreeNode#0" />
             <element signature="method#inOrder#0;class#TreeNode#0" />
@@ -310,19 +371,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Problems/DriverProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="127">
+          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
           <folding>
-            <element signature="method#insert#0;class#TreeNode#0" />
+            <element signature="method#deleteNode#0;class#TreeNode#0" />
             <element signature="method#min_value#0;class#TreeNode#0" />
             <element signature="method#contains#0;class#TreeNode#0" />
             <element signature="method#inOrder#0;class#TreeNode#0" />
@@ -332,17 +387,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="655" column="16" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/Trie.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="-8287">
+          <caret line="217" column="18" lean-forward="true" selection-start-line="217" selection-start-column="18" selection-end-line="217" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Implementations/Heap/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problems/DriverProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Implementations/Heap/MinHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
