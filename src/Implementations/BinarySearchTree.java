@@ -45,7 +45,7 @@ public class BinarySearchTree {
     /**
      * Prints inorder traversal of the BST
      */
-    public void printInOrder() {
+        public void printInOrder() {
         root.inOrder();
         System.out.println();
     }
