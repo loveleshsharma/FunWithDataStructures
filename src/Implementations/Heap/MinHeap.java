@@ -1,5 +1,7 @@
 package Implementations.Heap;
 
+import java.util.Arrays;
+
 /**
  *The heap class implements Min Heap.In min heap, the data contained in each node
  * is less than(or equal to) the data in the node's children.The Min Heap here is implemented
@@ -20,12 +22,22 @@ public class MinHeap implements Heap {
     }
 
     /**
+     * Increases the array capacity as required.
+     */
+    private void ensureCapacity() {
+        if(size == heap.length) {
+            heap = Arrays.copyOf(heap, heap.length*2);
+        }
+    }
+
+    /**
      * Inserts the given key into the MinHeap at its appropriate location.
      * It uses heapify up strategy to arrange the elements of MinHeap at appropriate location.
      * @param key
      */
     @Override
     public void insert(int key) {
+        ensureCapacity();
         size++;
         heap[size] = key;
         heapifyUp();
