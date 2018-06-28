@@ -7,7 +7,7 @@ public class DriverProgram {
 
     public static void main(String...args) {
         MinHeap minHeap = new MinHeap();
-        minHeap.insert(2);
+        minHeap.insert(3);
         minHeap.insert(4);
         minHeap.insert(8);
         minHeap.insert(9);
@@ -17,8 +17,14 @@ public class DriverProgram {
         minHeap.insert(15);
         minHeap.insert(20);
         minHeap.insert(13);
-        minHeap.insert(3);
         minHeap.printHeapAsArray();
+        minHeap.delete();
+        minHeap.printHeapAsArray();
+        minHeap.delete();
+        minHeap.printHeapAsArray();
+        System.out.println(minHeap.isEmpty());
+        System.out.println(minHeap.heapSize());
+
 
 
     }

@@ -5,6 +5,4 @@ public interface Heap {
     void delete();
     boolean isEmpty();
     int heapSize();
-    void heapifyUp();
-    void heapifyDown();
 }
