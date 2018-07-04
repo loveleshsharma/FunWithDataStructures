@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9db71ff-3aac-4523-9d2b-363450d09ca9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Implementations/trees/avlTrees/AVLTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Implementations/Heap/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Implementations/Heap/Heap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Implementations/Heap/MinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Implementations/Heap/MinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/Implementations/Heap/MinHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/Implementations/Heap/MinHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Implementations/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Implementations/trees/binarySearchTrees/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Implementations/Heap/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Implementations/heap/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Implementations/Heap/MinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Implementations/heap/MinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Implementations/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Implementations/tries/Trie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Problems/DriverProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problems/DriverProgram.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,42 +21,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DriverProgram.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problems/DriverProgram.java">
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Implementations/trees/binarySearchTrees/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+            <state relative-caret-position="123">
+              <caret line="106" column="16" lean-forward="true" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinHeap.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Implementations/Heap/MinHeap.java">
+      <file leaf-file-name="DriverProgram.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Problems/DriverProgram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="170">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
-                <element signature="docComment;method#MinHeap#0;class#MinHeap#0" />
-                <element signature="method#MinHeap#0;class#MinHeap#0" />
-                <element signature="docComment;method#insert#0;class#MinHeap#0" />
-                <element signature="method#insert#0;class#MinHeap#0" />
-                <element signature="docComment;method#delete#0;class#MinHeap#0" />
-                <element signature="method#delete#0;class#MinHeap#0" />
-                <element signature="docComment;method#isEmpty#0;class#MinHeap#0" />
-                <element signature="method#isEmpty#0;class#MinHeap#0" />
-                <element signature="docComment;method#heapSize#0;class#MinHeap#0" />
-                <element signature="docComment;method#heapifyUp#0;class#MinHeap#0" />
-                <element signature="method#heapifyUp#0;class#MinHeap#0" />
-                <element signature="docComment;method#heapifyDown#0;class#MinHeap#0" />
-                <element signature="method#heapifyDown#0;class#MinHeap#0" />
-                <element signature="docComment;method#swap#0;class#MinHeap#0" />
-                <element signature="method#swap#0;class#MinHeap#0" />
-                <element signature="docComment;method#printHeapAsArray#0;class#MinHeap#0" />
-                <element signature="method#printHeapAsArray#0;class#MinHeap#0" />
-                <element signature="docComment;method#getParent#0;class#MinHeap#0" />
-                <element signature="docComment;method#getLeftChild#0;class#MinHeap#0" />
-                <element signature="docComment;method#getRightChild#0;class#MinHeap#0" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AVLTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Implementations/trees/avlTrees/AVLTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -62,8 +56,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -88,8 +82,13 @@
         <option value="$PROJECT_DIR$/src/Implementations/BinaryHeap.java" />
         <option value="$PROJECT_DIR$/src/Implementations/Heap/BinaryHeap.java" />
         <option value="$PROJECT_DIR$/src/Implementations/Heap/Heap.java" />
-        <option value="$PROJECT_DIR$/src/Problems/DriverProgram.java" />
         <option value="$PROJECT_DIR$/src/Implementations/Heap/MinHeap.java" />
+        <option value="$PROJECT_DIR$/src/Implementations/binarysearchtree/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/Implementations/tries/Trie.java" />
+        <option value="$PROJECT_DIR$/src/Implementations/trees/binarysearchtree/binarySearchTrees/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/Implementations/trees/avlTrees/AVLTree.java" />
+        <option value="$PROJECT_DIR$/src/Problems/DriverProgram.java" />
+        <option value="$PROJECT_DIR$/src/Implementations/trees/binarySearchTrees/BinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -105,8 +104,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,25 +128,18 @@
               <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Implementations" type="462c0819:PsiDirectoryNode" />
-              <item name="Heap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Problems" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -174,12 +166,12 @@
       </extension>
     </configuration>
     <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Implementations.Trie" />
+      <option name="MAIN_CLASS_NAME" value="Implementations.tries.Trie" />
       <module name="DataStructures" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Implementations.Heap.*" />
+          <option name="PATTERN" value="Implementations.heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1529601313323</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implemented Min Heap">
+      <created>1530182177503</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1530182177504</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added ensureCapacity method in the MinHeap class">
+      <created>1530184013832</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530184013832</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -277,51 +283,31 @@
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32959327" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.328594" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.3665087" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.328594" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.23376623" />
-      <window_info anchor="right" id="Google Cloud Storage" order="0" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info id="UI Designer" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.39968404" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Google Cloud Storage" order="0" />
-      <window_info id="Designer" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.24963397" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.23352855" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.36850393" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32755905" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.36850393" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32913387" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" side_tool="true" visible="true" weight="0.22307105" />
+      <window_info anchor="right" id="Google Cloud Storage" order="0" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.24963397" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.328594" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -341,14 +327,30 @@
     <MESSAGE value="dev : added searchNode method" />
     <MESSAGE value="Completed Binary Search Tree with utility methods required for basic manipulations" />
     <MESSAGE value="Completed Trie Data Structure with insert and search utility methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Trie Data Structure with insert and search utility methods" />
+    <MESSAGE value="Implemented Min Heap" />
+    <MESSAGE value="added ensureCapacity method in the MinHeap class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ensureCapacity method in the MinHeap class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/heap/MinHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="101" column="20" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problems/Sample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problems/DriverProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -363,28 +365,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/trees/binarySearchTrees/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/BinaryHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/Trie.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/BinaryHeap.java" />
+    <entry file="file://$PROJECT_DIR$/src/Implementations/tries/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -402,18 +394,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/Trie.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/tries/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/trees/binarySearchTrees/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="66" column="35" lean-forward="true" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
@@ -427,7 +415,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/trees/binarySearchTrees/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
@@ -448,14 +436,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/Trie.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/tries/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-289">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -466,14 +450,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/trees/binarySearchTrees/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/trees/binarySearchTrees/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="66" column="35" lean-forward="true" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
@@ -487,7 +471,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/trees/binarySearchTrees/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
@@ -508,7 +492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/Trie.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/tries/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
@@ -522,21 +506,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/BinaryHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/BinaryHeap.java" />
+    <entry file="file://$PROJECT_DIR$/src/Implementations/trees/binarySearchTrees/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/trees/binarySearchTrees/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="66" column="35" lean-forward="true" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
@@ -550,7 +528,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/trees/binarySearchTrees/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
@@ -571,7 +549,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/trees/binarySearchTrees/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -585,25 +563,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/Trie.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/tries/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/Trie.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/tries/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/trees/binarySearchTrees/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="66" column="35" lean-forward="true" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
@@ -617,7 +591,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/trees/binarySearchTrees/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
@@ -632,72 +606,57 @@
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/src/Implementations/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-867">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/Trie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/List.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Arrays.java" />
     <entry file="file://$PROJECT_DIR$/src/Problems/Sample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="306">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/Heap/Heap.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/tries.java" />
+    <entry file="file://$PROJECT_DIR$/src/Implementations/heap/MinHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Implementations/heap/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Problems/DriverProgram.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/tries/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implementations/Heap/MinHeap.java">
+    <entry file="file://$PROJECT_DIR$/src/Implementations/trees/binarySearchTrees/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="123">
+          <caret line="106" column="16" lean-forward="true" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Implementations/trees/avlTrees/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problems/DriverProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
-            <element signature="docComment;method#MinHeap#0;class#MinHeap#0" />
-            <element signature="method#MinHeap#0;class#MinHeap#0" />
-            <element signature="docComment;method#insert#0;class#MinHeap#0" />
-            <element signature="method#insert#0;class#MinHeap#0" />
-            <element signature="docComment;method#delete#0;class#MinHeap#0" />
-            <element signature="method#delete#0;class#MinHeap#0" />
-            <element signature="docComment;method#isEmpty#0;class#MinHeap#0" />
-            <element signature="method#isEmpty#0;class#MinHeap#0" />
-            <element signature="docComment;method#heapSize#0;class#MinHeap#0" />
-            <element signature="docComment;method#heapifyUp#0;class#MinHeap#0" />
-            <element signature="method#heapifyUp#0;class#MinHeap#0" />
-            <element signature="docComment;method#heapifyDown#0;class#MinHeap#0" />
-            <element signature="method#heapifyDown#0;class#MinHeap#0" />
-            <element signature="docComment;method#swap#0;class#MinHeap#0" />
-            <element signature="method#swap#0;class#MinHeap#0" />
-            <element signature="docComment;method#printHeapAsArray#0;class#MinHeap#0" />
-            <element signature="method#printHeapAsArray#0;class#MinHeap#0" />
-            <element signature="docComment;method#getParent#0;class#MinHeap#0" />
-            <element signature="docComment;method#getLeftChild#0;class#MinHeap#0" />
-            <element signature="docComment;method#getRightChild#0;class#MinHeap#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,4 +1,4 @@
-package Implementations;
+package Implementations.tries;
 
 public class Trie {
 

@@ -1,10 +1,10 @@
-package Implementations.Heap;
+package Implementations.heap;
 
 import java.util.Arrays;
 
 /**
- *The heap class implements Min Heap.In min heap, the data contained in each node
- * is less than(or equal to) the data in the node's children.The Min Heap here is implemented
+ *The heap class implements Min heap.In min heap, the data contained in each node
+ * is less than(or equal to) the data in the node's children.The Min heap here is implemented
  * using Array
  */
 

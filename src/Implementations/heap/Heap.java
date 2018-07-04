@@ -1,4 +1,4 @@
-package Implementations.Heap;
+package Implementations.heap;
 
 public interface Heap {
     void insert(int key);

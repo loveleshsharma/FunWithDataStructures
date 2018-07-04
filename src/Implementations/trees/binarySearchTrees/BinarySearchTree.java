@@ -1,4 +1,4 @@
-package Implementations;
+package Implementations.trees.binarySearchTrees;
 
 /**
  * Implementation of Binary Search Tree(BST) with all its necessary functions

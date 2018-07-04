@@ -1,7 +1,10 @@
 package Problems;
 
-import Implementations.BinarySearchTree;
-import Implementations.Heap.MinHeap;
+import Implementations.heap.MinHeap;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
 
 public class DriverProgram {
 
