@@ -156,7 +156,7 @@ class TreeNode {
     }
 
     void preOrder() {
-        System.out.println(data+" ");
+        System.out.print(data+" ");
         if(left != null)
             left.preOrder();
         if(right != null)
@@ -168,6 +168,6 @@ class TreeNode {
             left.postOrder();
         if(right != null)
             right.postOrder();
-        System.out.println(data+" ");
+        System.out.print(data+" ");
     }
 }

@@ -1,6 +1,7 @@
 package Problems;
 
 import Implementations.heap.MinHeap;
+import Implementations.trees.binarySearchTrees.BinarySearchTree;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -27,6 +28,18 @@ public class DriverProgram {
         minHeap.printHeapAsArray();
         System.out.println(minHeap.isEmpty());
         System.out.println(minHeap.heapSize());
+
+        BinarySearchTree bst = new BinarySearchTree(5);
+        bst.insertNode(4);
+        bst.insertNode(2);
+        bst.insertNode(3);
+        bst.insertNode(7);
+        bst.insertNode(6);
+        bst.insertNode(8);
+
+        bst.printInOrder();
+        bst.printPreOrder();
+        bst.printPostOrder();
 
 
 
