@@ -1,7 +1,6 @@
-package Implementations.graphs;
+package Implementations.graphs.basicImplementation;
 
 import java.util.LinkedList;
-import java.util.List;
 
 public class UndirectedAdjacencyList extends AbstractAdjecencyList {
 
@@ -31,6 +30,10 @@ public class UndirectedAdjacencyList extends AbstractAdjecencyList {
 
 //        removing backwards for undirected graph
         adjList[dest].remove(src);
+
+    }
+
+    public void sayHello() {
 
     }
 }

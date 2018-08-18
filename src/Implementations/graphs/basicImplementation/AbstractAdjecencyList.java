@@ -1,4 +1,4 @@
-package Implementations.graphs;
+package Implementations.graphs.basicImplementation;
 
 import java.util.LinkedList;
 import java.util.List;
